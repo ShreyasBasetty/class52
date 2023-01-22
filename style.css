@@ -1,0 +1,63 @@
+body{
+    background-color:       #00ffc8;
+}
+   
+p{
+ color: aqua;
+}
+
+h1{
+ color:red; 
+ margin: 30px   
+}
+
+.header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    background-color:cornsilk;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end
+}
+
+p,h2,h3{
+    text-align:center
+}
+
+
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu a{
+    margin : 20px;
+}
+
+.item{
+    position: relative
+}
+
+.item h3{ 
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0
+}
+
+.item:hover h3{
+    opacity:1
+}
+
+.item:hover img {
+    opacity: 0.5
+}
